@@ -2,9 +2,10 @@
 Define css style via class names.
 
 ## How to use
-1. Load the script at the end of your html.
+1. Load the script at the end of your html body.
 
   ```c
+  <body>
     ...
     <script src="jquery.rapidstyle.js"></script>
   </body>
