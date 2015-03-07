@@ -61,7 +61,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <script>
     $(function() {
-      $(document).rapidstyle();//
+      $(document).rapidstyle();
     });
   </script>
 </body>
