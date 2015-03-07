@@ -30,8 +30,15 @@ Define css style via class names.
   You may customize the selector by specifying your custom class name, or set to "false" to allow rapidstyle to run on all elements.
   
   ```c
-  $(document).rapidstyle('.rapidstyle'); // class="rapidstyle"
-  $(document).rapidstyle('.rs'); // class="rs"
-  $(document).rapidstyle('._rs_'); // class="_rs_"
-  $(document).rapidstyle(false); // runs on all elements
+  // class="rapidstyle"
+  $(document).rapidstyle('.rapidstyle');
+  
+  // class="rs"
+  $(document).rapidstyle('.rs');
+  
+  // class="_rs_"
+  $(document).rapidstyle('._rs_');
+  
+  // runs on all elements
+  $(document).rapidstyle(false);
   ```
