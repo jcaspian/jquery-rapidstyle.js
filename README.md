@@ -5,7 +5,9 @@ Define css style via class names.
 1. Load the script at the end of your html.
 
   ```c
-  <script src="jquery.rapidstyle.js"></script>
+    ...
+    <script src="jquery.rapidstyle.js"></script>
+  </body>
   ```
 
 2. Bind the trigger on document.
