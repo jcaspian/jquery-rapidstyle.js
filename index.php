@@ -51,7 +51,7 @@
     <!-- Site footer -->
     <footer class="footer">
       <p>&copy; Company 2014</p>
-      <div class="rs background-color-red font-weight-bold width-500px margin-auto margin-top-10px">HeLLo</div>
+      <div class="_rs background-color-red font-weight-bold width-500px margin-auto margin-top-10px">HeLLo</div>
     </footer>
 
   </div> <!-- /container -->
@@ -61,7 +61,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <script>
     $(function() {
-      $(document).rapidstyle('.rs');
+      $(document).rapidstyle();
     });
   </script>
 </body>
