@@ -46,3 +46,9 @@ Define css style via class names.
   // runs on all elements
   $(document).rapidstyle(false);
   ```
+
+3. Start rapid styling.
+  ```c
+  <a class="_rs color-rgb(173,254,79) font-weight-600 text-decoration-none">hello</a>
+  <div class="_rs background-color-#ccc padding-20px">block</div>
+  ```
