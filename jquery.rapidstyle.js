@@ -182,6 +182,8 @@
   
   $.fn.rapidstyle = $.fn.rapidStyle = function(selector) {
     
+    !window.console && (window.console={log:function(){}});
+    
     var timeStarted = new Date();
     console.log('Start:', timeStarted);
     
